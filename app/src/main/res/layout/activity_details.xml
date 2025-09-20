@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detailsScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF3FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/detailsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="32dp">
+
+        <!-- BAC Display Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/rounded_card"
+            android:elevation="4dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textBAC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.00%"
+                android:textColor="#6A4CAF"
+                android:textSize="56sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/baloo" />
+
+            <TextView
+                android:id="@+id/text_driveAdvice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Drive Advice"
+                android:textSize="18sp"
+                android:textColor="@color/cartoon_purple"
+                android:fontFamily="@font/baloo"
+                android:padding="12dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                />
+
+
+        </LinearLayout>
+
+        <!-- Time, Location, and Legal Limit Card -->
+        <LinearLayout
+            android:id="@+id/infoCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/rounded_card"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/text_timeLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo"
+                android:gravity="center_horizontal"
+                android:lineSpacingExtra="6dp"
+                android:paddingBottom="8dp"
+                android:text="Time: 10:24 PM\nLocation: Montreal, QC\nCoordinates: 45.5017° N, 73.5673° W\nLegal BAC Limit: 0.08%"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Home Button -->
+        <Button
+            android:id="@+id/button_home"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Another Test?"
+            android:textSize="16sp"
+            android:fontFamily="@font/baloo"
+            android:background="@drawable/rounded_button"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6A4CAF" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,21 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Light theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#6A4CAF</item>
+        <item name="colorAccent">#FAF3FF</item>
+        <!-- Custom attributes -->
+        <item name="colorBackground">#E4E1E4</item>
+        <item name="colorText">#000000</item>
+    </style>
+
+    <!-- Dark theme -->
+    <style name="AppThemeDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorAccent">#6A4CAF</item>
+        <!-- Custom attributes -->
+        <item name="colorBackground">#232121</item>
+        <item name="colorText">#FFFFFF</item>
+    </style>
+
+</resources>

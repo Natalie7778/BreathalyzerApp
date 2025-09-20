@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="black">#26262A</color>
+    <color name="good">#238348</color>
+    <color name="goodBACK">#E5BFEBD5</color>
+    <color name="uhOh">#C8AD03</color>
+    <color name="uhOhBACK">#7B9D927B</color>
+    <color name="goHome">#282424</color>
+    <color name="goHomeBACK">#B6D10707</color>
+    <color name="pink">#F48FB1</color>
+    <color name="cartoon_yellow">#FFD54F</color>
+    <color name="dialog_text">#0D0D0D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="cartoon_purple">#6A4CAF</color>
+
+
+
+</resources>

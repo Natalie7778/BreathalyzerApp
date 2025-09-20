@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorBackground"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Sharing Consent"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/baloo"
+        android:textColor="#F48FB1"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Description -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This app will access your device's GPS location to improve the user experience:"
+        android:textSize="16sp"
+        android:fontFamily="@font/baloo"
+        android:textColor="#F48FB1"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• User GPS location will not be saved after exiting the app or shared with any third party\n• User BAC results will not be saved or shared"
+        android:textSize="15sp"
+        android:fontFamily="@font/baloo"
+        android:textColor="#F48FB1"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This app will collect information related to maintaining the device's Bluetooth connection, but will not store any information after the user exits the app."
+        android:textSize="15sp"
+        android:fontFamily="@font/baloo"
+        android:textColor="#F48FB1"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Consent Checkbox -->
+    <CheckBox
+        android:id="@+id/cb_consent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I consent to sharing my data with this app"
+        android:fontFamily="@font/baloo"
+        android:textSize="18sp"
+        android:textColor="#F48FB1"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:fontFamily="@font/baloo"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_cartoon_button"
+            android:layout_marginEnd="12dp"
+            android:padding="12dp"
+            android:minWidth="80dp" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:fontFamily="@font/baloo"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_cartoon_button"
+            android:padding="12dp"
+            android:minWidth="80dp" />
+    </LinearLayout>
+
+</LinearLayout>

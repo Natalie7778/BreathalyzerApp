@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="?attr/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:fontFamily="@font/baloo"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="12dp"
+            android:background="#F48FB1"
+            android:textColor="@android:color/white" />
+
+        <!-- Data Share Consent -->
+        <Button
+            android:id="@+id/sharedataButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Share Consent"
+            android:fontFamily="@font/baloo"
+            android:drawableStart="@drawable/ic_share"
+            android:drawablePadding="8dp"
+            android:background="@drawable/rounded_cartoon_button"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:layout_marginTop="24dp" />
+
+        <!-- Dark Mode Switch -->
+        <Switch
+            android:id="@+id/themeSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:fontFamily="@font/baloo"
+            android:text="Dark Mode"
+            android:textColor="#F48FB1"
+            android:textSize="18sp" />
+
+        <!-- Vibration Alert Switch -->
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:fontFamily="@font/baloo"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/rounded_cartoon_button"
+            android:textColor="@android:color/white"
+            android:padding="12dp" />
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:fontFamily="@font/baloo"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_cartoon_button"
+            android:textColor="@android:color/white"
+            android:padding="12dp" />
+
+        <!-- Back Button Centered -->
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/baloo"
+            android:textColor="#F48FB1"
+            android:background="@drawable/rounded_cartoon_button"
+            android:text="Back" />
+
+    </LinearLayout>
+</ScrollView>

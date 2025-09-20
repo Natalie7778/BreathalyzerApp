@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/registerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="@color/cartoon_yellow">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimation"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:lottie_fileName="welcome.json"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Cute Title -->
+    <TextView
+        android:id="@+id/registerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#F48FB1"
+        android:fontFamily="@font/baloo"
+        android:paddingBottom="24dp" />
+
+    <!-- Username Input -->
+    <EditText
+        android:id="@+id/editUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:fontFamily="@font/baloo"
+        android:textColor="@color/purple_500"
+        android:backgroundTint="@color/purple_500" />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/baloo"
+        android:textColor="@color/purple_500"
+        android:backgroundTint="@color/purple_500" />
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_cartoon_button"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/baloo"
+        android:padding="12dp"
+        android:elevation="6dp" />
+</LinearLayout>
